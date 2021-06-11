@@ -36,6 +36,6 @@ class DataApplicationTests {
 	@Test
 	void currenciesLength() {
 		Integer currenciesLength = dataController.getCurrencies().size();
-		assertEquals(20, currenciesLength);
+		assertEquals(10, currenciesLength);
 	}
 }
